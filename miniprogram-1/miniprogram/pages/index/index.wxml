@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{events}}" wx:key="id" data-id="{{item.id}}" bindtap="viewDetail">
+    <text>{{item.name}}</text>
+    <text>{{item.date}}</text>
+    <text>{{item.location}}</text>
+  </view>
+</view>

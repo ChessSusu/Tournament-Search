@@ -1,0 +1,7 @@
+<!--detail.wxml-->
+<view class="container">
+  <text>{{event.name}}</text>
+  <text>{{event.date}}</text>
+  <text>{{event.location}}</text>
+  <text>{{event.description}}</text>
+</view>
